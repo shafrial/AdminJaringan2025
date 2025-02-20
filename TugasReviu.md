@@ -33,7 +33,7 @@ Pilih salah satu paket, kemudian buka detail dari paket tersebut. Pilih **Intern
 
 Pilih salah satu paket, kemudian pilih opsi **Follow**, kemudian pilih **HTTP Stream**.
 
-![HTTP Stream](media/image4.png)
+![HTTP Stream](assets/Screenshot_2025-02-20_100503.png)
 
 Dapat dilihat dari informasi yang diberikan bahwa:
 
