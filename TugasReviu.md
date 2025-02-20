@@ -57,7 +57,7 @@ Cari **acknowledge** dari HTTP request client, dapat dilihat bahwa itu terdapat 
 
 #### e. Waktu yang dibutuhkan untuk transfer dan response dari client ke server
 
-![Waktu Transfer dan Response](media/image5.png)
+![Waktu Transfer dan Response](assets/Screenshot_2025-02-20_101530.png)
 
 Buka **TCP header**, kemudian lihat bagian **SEQ/ACK Analysis**. Setelah itu kita melihat **RTT**.
 
