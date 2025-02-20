@@ -49,7 +49,7 @@ Pilih paket client yang mengirim HTTP request, kemudian lihat kolom **Time**.
 
 #### d. Waktu server menerima HTTP request dari client
 
-![Waktu Server Menerima Request](media/image5.png)
+![Waktu Server Menerima Request](assets/Screenshot_2025-02-20_101530.png)
 
 Cari **acknowledge** dari HTTP request client, dapat dilihat bahwa itu terdapat di paket 5, kemudian kita lihat kolom **Time**.
 
