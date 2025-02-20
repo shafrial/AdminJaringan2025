@@ -20,7 +20,7 @@ Eksplor `http.cap` di Wireshark, lakukan analisis:
 
 #### a. IP server dan client
 
-![IP Server dan Client](assets/image2.png)
+![IP Server dan Client](assets/Screenshot_2025-02-20_100007.png)
 
 Pilih salah satu paket, kemudian buka detail dari paket tersebut. Pilih **Internet Protocol Version**. Terdapat informasi **Source Address** dan **Destination Address**.
 
