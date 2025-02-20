@@ -67,7 +67,8 @@ Buka **TCP header**, kemudian lihat bagian **SEQ/ACK Analysis**. Setelah itu kit
 
 ### B. Analisis Gambar
 
-![Analisis Gambar](media/image6.png)
+![Analisis Gambar](assets/assets
+/Screenshot 2025-02-19 061213.png)
 
 #### a. Node to Node : Data Link Layer
 
