@@ -2,8 +2,6 @@
 
 ## Workshop Administrasi Jaringan
 
-![Workshop Administrasi Jaringan](media/image1.png)
-
 **Nama dosen pengampu:**  
 Dr. Ferry Astika Saputra ST, M.Sc
 
@@ -22,7 +20,7 @@ Eksplor `http.cap` di Wireshark, lakukan analisis:
 
 #### a. IP server dan client
 
-![IP Server dan Client](media/image2.png)
+![IP Server dan Client](assets/image2.png)
 
 Pilih salah satu paket, kemudian buka detail dari paket tersebut. Pilih **Internet Protocol Version**. Terdapat informasi **Source Address** dan **Destination Address**.
 
