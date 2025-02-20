@@ -29,7 +29,7 @@ Pilih salah satu paket, kemudian buka detail dari paket tersebut. Pilih **Intern
 
 #### b. Versi HTTP
 
-![Versi HTTP](media/image3.png)
+![Versi HTTP](assets/Screenshot_2025-02-20_100707.png)
 
 Pilih salah satu paket, kemudian pilih opsi **Follow**, kemudian pilih **HTTP Stream**.
 
@@ -41,7 +41,7 @@ Dapat dilihat dari informasi yang diberikan bahwa:
 
 #### c. Waktu client mengirim request
 
-![Waktu Client Mengirim Request](media/image3.png)
+![Waktu Client Mengirim Request](assets/Screenshot_2025-02-20_100707.png)
 
 Pilih paket client yang mengirim HTTP request, kemudian lihat kolom **Time**.
 
