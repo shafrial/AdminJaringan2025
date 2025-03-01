@@ -1,4 +1,4 @@
-#REVIEW MATERI "PROCESS CONTROL"
+# REVIEW MATERI "PROCESS CONTROL"
 
 ## **1. Components of a Process**  
 Dalam sistem operasi Linux/UNIX, sebuah proses terdiri dari dua bagian utama:  
