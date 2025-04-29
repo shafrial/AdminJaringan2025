@@ -16,7 +16,7 @@ Anggota :
 
 # Topologi
 
-![image](https://github.com/user-attachments/assets/2f36d468-5c75-4052-bb5a-5330d7ab00e2)
+![image](img/topologi.png)
 
 # Konfigurasi DNS
 ### 1. Mengunduh bind9 dan bind9utils 
@@ -29,33 +29,33 @@ apt -y install bind9 bind9utils;
 ```bash
 nano /etc/bind/named.conf;
 ```
-![image](https://github.com/user-attachments/assets/5b62288c-78c4-47cc-a049-5eed73e6d70e)
+![image](img/1.jpeg)
 
 ### 3. Melakukan konfigurasi untuk named.conf.options 
 
 ```bash
 nano /etc/bind/named.conf.options;
 ```
-![image](https://github.com/user-attachments/assets/5b62288c-78c4-47cc-a049-5eed73e6d70e)
+![image](img/2.jpeg)
 
 ### 3. Melakukan konfigurasi untuk named.conf.internal-zones 
 
 ```bash
 nano /etc/bind/named.conf.internal-zones;
 ```
-![image](https://github.com/user-attachments/assets/5b62288c-78c4-47cc-a049-5eed73e6d70e)
+![image](img/3.jpeg)
 ### 4. Melakukan konfigurasi untuk kelompok4.home 
 
 ```bash
 nano /var/cache/bind/kelompok4.home;
 ```
-![image](https://github.com/user-attachments/assets/5b62288c-78c4-47cc-a049-5eed73e6d70e)
+![image](img/4.jpeg)
 ### 5. Melakukan konfigurasi untuk 4.168.192.db 
 
 ```bash
 nano /var/cache/bind/4.168.192.db;
 ```
-![image](https://github.com/user-attachments/assets/5b62288c-78c4-47cc-a049-5eed73e6d70e)
+![image](img/5.jpeg)
 
 ### 6. Testing koneksi menggunakan named-checkzone 
 
@@ -65,7 +65,7 @@ named-checkzone kelompok4.home /var/cache/bind/kelompok4.home;
 ```bash
 named-checkzone 4.168.192.in-addr-arpa /var/cache/bind/4.168.192;
 ```
-![image](https://github.com/user-attachments/assets/5b62288c-78c4-47cc-a049-5eed73e6d70e)
+![image](img/6.jpeg)
 
 ### 7. Tes menggunakan dig 
 
@@ -75,7 +75,7 @@ dig kelompok4.home;
 ```bash
 dig -x 192.168.4.10;
 ```
-![image](https://github.com/user-attachments/assets/5b62288c-78c4-47cc-a049-5eed73e6d70e)
+![image](img/7.jpeg)
 
 # Konfigurasi Web Server
 
@@ -96,8 +96,8 @@ systemctl restart apache2
 ### 4.Akses web menggunakan browser
  - Lokal: 192.168.4.10
 
-![image](https://github.com/user-attachments/assets/0fbeb090-397f-4c17-9b28-74ec9e16f004)
+![image](img/8.jpeg)
 
  - Klien lain: 192.168.2.10
 
-![image](https://github.com/user-attachments/assets/615487c2-5cb6-40c3-808b-3616e847c557)
+![image](img/9.jpeg)
